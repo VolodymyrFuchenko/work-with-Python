@@ -1,0 +1,22 @@
+# Імпортуємо необхідні об'єкти для тестування
+from game.sword import Swords
+
+def test_get_buff_damag():
+    # Ініціалізуємо тестові дані
+    test_obj = Swords("Test Sword", "Basic", 5, 10, lambda x: None)
+    damage = 3
+
+    # Викликаємо тестирувану функцію
+    result = test_obj.get_buff_damag(damage)
+
+    # Перевіряємо правильність результату
+    assert result == f"Накладено баф на Test Sword який додає атрибут нанесення шкоди +{damage}"
+    assert test_obj.buff_damage == damage
+    assert test_obj.hash in Swords.who_has_buff
+
+    # Очищаємо стан для інших тестів (важливо для уникнення впливу одного тесту на інший)
+    Swords.who_has_buff.remove(test_obj.hash)
+
+# Запускаємо тест за допомогою pytest
+# Якщо pytest встановлено, тоді тест можна запустити з командного рядка, введенням команди pytest у папці з тестовим файлом
+# Або можна запустити тест безпосередньо в середовищі розробки, якщо воно підтримує запуск pytest-тестів.
