@@ -19,4 +19,17 @@ def test_get_buff_damag():
 
 # Запускаємо тест за допомогою pytest
 # Якщо pytest встановлено, тоді тест можна запустити з командного рядка, введенням команди pytest у папці з тестовим файлом
-# Або можна запустити тест безпосередньо в середовищі розробки, якщо воно підтримує запуск pytest-тестів.
+# Або можна запустити тест безпосередньо в середовищі розробки, якщо воно підтримує запуск pytest-тесті
+#Результат
+PS D: \Фученко Володимир КН-220(Веб_техноголії) \Лабораторна14_1\images \2024_kn320_test_nm-main>
+d:; cd 'd: \@
+ученко Володимир КН-220(Веб техногол?]) \Лабораторнаº14_1 \images\2024_kn320 test nm-main'; с: \Users\User \AppDa
+ta \Local \Programs \Python \Python310-32\python.exe c: \Users \User\. vscode \extensions \ms-python.debugpy-2024.0.0-win32-x64\bundled \libs \debugpy \adapter/../.. \debugpy \launcher 63480 -- D: \Фученко Володимир КН-220 (Веб_техног
+ол?1) Лабораторна14_1\images \2024_kn320_test_nm-main\Exam|sword.py sword.py
+Веб_техноголії : The term 'Веб_техноголії" is not recognized as the name of a cdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is cor rect and try again.
+At line:1 char: 331
++ ... auncher 63480 -- D: \фученко Володимир КН-220(Веб_техноголії) Лабора ...
++ CategoryInfo
+: ObjectNotFound: (Веб_техноголії:String) [], CommandNotFoundException
++ FullyQualifiedErrorId : CommandNotFoundException
+PS D: \фученко Володимир КН-220 (Веб_техноголії) Лабораторна 14_1 \images (2024_kn320_test_nm-main›
